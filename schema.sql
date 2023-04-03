@@ -60,3 +60,10 @@ CREATE TABLE visits (
     CONSTRAINT fk_visits_vets
         FOREIGN KEY (vet_id) REFERENCES vets (id)
 );
+
+CREATE INDEX animal_index ON visits(animal_id);
+CREATE INDEX email_index ON owners(email);
+
+CREATE INDEX vet_id_index ON visits(vet_id)
+INCLUDE (id, animal_id, date_of_visit)
+WHERE vet_id=2;
