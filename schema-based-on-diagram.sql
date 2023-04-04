@@ -23,3 +23,10 @@ CREATE TABLE invoices (
         FOREIGN KEY (medical_history_id) REFERENCES medical_histories (id)
 
 )
+
+CREATE TABLE teatments (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    type VARCHAR,
+    name VARCHAR
+
+)
