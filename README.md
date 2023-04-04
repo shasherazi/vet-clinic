@@ -40,6 +40,7 @@ After you're finished please remove all the comments and instructions!
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
+  - [Schema diagram](#diagram)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -104,6 +105,11 @@ Example command:
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Schema Diagram -->
+## Schema Diagram <a name="diagram"></a>
+![image](https://user-images.githubusercontent.com/63230301/229833219-a3162115-280c-4e84-a822-5e9e8d4e2ece.png)
+
 
 <!-- AUTHORS -->
 
