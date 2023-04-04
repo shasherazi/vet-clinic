@@ -123,6 +123,13 @@ Example command:
 - Twitter: [@shasherazi](https://twitter.com/shasherazi)
 - LinkedIn: [shasherazi](https://linkedin.com/in/shasherazi)
 
+👤 **Aubin Simpeze**
+
+- GitHub: [@aubinleyoung](https://github.com/aubinleyoung)
+- Twitter: [@aubin_simpeze](https://twitter.com/aubin_simpeze)
+- LinkedIn: [aubin-simpeze](https://linkedin.com/in/aubin_simpeze)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
