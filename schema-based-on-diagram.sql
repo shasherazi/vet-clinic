@@ -15,18 +15,29 @@ CREATE TABLE medical_histories (
 
 CREATE TABLE invoices (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    total_amount DECIMAL,
-    generated_at TIMESTAMP,
-    payed_at TIMESTAMP,
+    total_amount DECIMAL NOT NULL,
+    generated_at TIMESTAMP NOT NULL,
+    payed_at TIMESTAMP NOT NULL,
     medical_history_id  INT NOT NULL,
-     CONSTRAINT fk_invoices_medical_histories
+    CONSTRAINT fk_invoices_medical_histories
         FOREIGN KEY (medical_history_id) REFERENCES medical_histories (id)
-
-)
+);
 
 CREATE TABLE teatments (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    type VARCHAR,
-    name VARCHAR
+    type VARCHAR NOT NULL,
+    name VARCHAR NOT NULL
+),
 
-)
+CREATE TABLE invoice_items(
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    unit_price DECIMAL NOT NULL,
+    quantity INT NOT NULL,
+    total_price DECIMAL NOT NULL,
+    invoice_id INT NOT NULL,
+    treatment_id INT NOT NULL,
+    CONSTRAINT fk_invoice_items_invoices
+        FOREIGN KEY (invoice_id) REFERENCES invoices (id),
+    CONSTRAINT fk_invoice_items_treatments
+        FOREIGN KEY (treatment_id) REFERENCES treatments (id)
+);
