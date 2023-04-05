@@ -42,6 +42,7 @@ After you're finished please remove all the comments and instructions!
   - [Usage](#usage)
   - [Schema diagram](#diagram)
 - [👥 Authors](#authors)
+- [Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
@@ -107,9 +108,10 @@ Example command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Schema Diagram -->
-## Schema Diagram <a name="diagram"></a>
-![image](https://user-images.githubusercontent.com/63230301/229833219-a3162115-280c-4e84-a822-5e9e8d4e2ece.png)
 
+## Schema Diagram <a name="diagram"></a>
+
+![image](https://user-images.githubusercontent.com/63230301/229833219-a3162115-280c-4e84-a822-5e9e8d4e2ece.png)
 
 <!-- AUTHORS -->
 
@@ -121,7 +123,22 @@ Example command:
 - Twitter: [@shasherazi](https://twitter.com/shasherazi)
 - LinkedIn: [shasherazi](https://linkedin.com/in/shasherazi)
 
+👤 **Aubin Simpeze**
+
+- GitHub: [@aubinleyoung](https://github.com/aubinleyoung)
+- Twitter: [@aubin_simpeze](https://twitter.com/aubin_simpeze)
+- LinkedIn: [aubin-simpeze](https://linkedin.com/in/aubin_simpeze)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## Future Features <a name="future-features"></a>
+
+- Add more tables to store more information about animals and their owners.
+- Add more queries to retrieve information from the database.
+- Add more constraints to the database.
 
 <!-- CONTRIBUTING -->
 
